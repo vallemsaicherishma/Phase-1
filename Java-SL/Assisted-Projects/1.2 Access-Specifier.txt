@@ -1,0 +1,79 @@
+//1. Default Access Specifier
+
+package access_modifier;
+class access_Specifier
+{
+	void display()
+	{
+		System.out.println("using default access modifier");
+	}
+}
+
+public class Default_Access_modifier {
+
+	public static void main(String[] args) {
+		access_Specifier as=new access_Specifier();
+	as.display();
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+//2. Private Access Specifier
+
+package access_modifier;
+class Private_Specifier
+{
+	private void display()
+	{
+		System.out.println("using private access specifier");
+	}
+}
+
+public class Private_Access_Specifier {
+
+	public static void main(String[] args) {
+		//private
+		Private_Specifier ps=new Private_Specifier();
+		//trying to access private method of another class
+		//ps.display;
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+//3. Protected Access Specifier
+
+package access_modifier;
+
+public class Protected_Access_Specifier {
+	protected void display()
+	{
+		System.out.println("using protected access specifier");
+	}
+
+	
+}
+  //4. Public Access Specifier
+
+package access_modifier;
+
+public class Public_Access_Specifier {
+	public void display()
+	{
+		System.out.println("using public access specifier");
+	}
+
+	public static void main(String[] args) {
+		Public_Access_Specifier pas=new Public_Access_Specifier();
+		pas.display();
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
