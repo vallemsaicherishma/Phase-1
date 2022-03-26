@@ -1,0 +1,27 @@
+package Constructor;
+class Circle
+{
+	public int r;
+	public static double pi=3.14;
+	Circle(int z)
+	{
+		r=z;
+	}
+	public void findArea()
+	{
+		System.out.println("The area of the circle is:"+(pi*r*r));
+	}
+}
+
+public class Constructor {
+
+	public static void main(String[] args) {
+		Circle c1=new Circle(3);
+		Circle c2=new Circle(4);
+		c1.findArea();
+		c2.findArea();
+
+	}
+
+}
+© 2022 GitHub, Inc.

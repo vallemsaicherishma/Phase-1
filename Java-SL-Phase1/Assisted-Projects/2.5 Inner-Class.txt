@@ -1,0 +1,72 @@
+// 1. Anonymous Inner-class
+
+package Inner_class;
+abstract class Inner_Class
+{
+	public abstract void dispaly();
+}
+public class Anonymous {
+	public static void main(String[]args)
+	{
+		Anonymous a=new Anonymous()
+		{
+		public void display()
+		{
+			System.out.println("Anonymous Inner class");
+		}
+	};
+	a.display();
+	}
+
+}
+
+
+//2. Inner Class1
+
+package Inner_class;
+
+public class Inner_Class {
+	public String msg="Hi Welcome";
+	class Inner
+	{
+		void hello()
+		{
+			System.out.println(msg+",Let start Learning Inner Class");
+		}
+	}
+
+	public static void main(String[] args) {
+		Inner_Class in=new Inner_Class();
+		Inner_Class.Inner in1=in.new Inner();
+		in1.hello();
+	}
+
+}
+
+
+//3. Inner Class2
+
+package Inner_class;
+
+public class Inner_Class2 {
+	private String msg="Inner class";
+	void display()
+	{
+		class Inner
+		{
+			void msg()
+			{
+				System.out.println(msg);
+			}
+		}
+		Inner i=new Inner();
+		i.msg();
+	}
+	public static void main(String[] args) {
+		Inner_Class2 i2=new Inner_Class2();
+		i2.display();
+		// TODO Auto-generated method stub
+
+	}
+
+}

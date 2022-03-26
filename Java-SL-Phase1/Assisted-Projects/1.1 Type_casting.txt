@@ -1,0 +1,25 @@
+package Type_Casting;
+
+public class Type_Casting1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Implicit typecasting");
+		char a='B';
+		System.out.println("Value of a:"+a);
+		int b=a;
+		System.out.println("Value of b:"+b);
+	    long c=a;
+	    System.out.println("Value of c:"+c);
+	    System.out.println("\n");
+	    System.out.println("Exlicit typecasting");
+	    double x=34.6;
+	    int y=(int)x;
+	    System.out.println("Value of x:"+x);
+	    System.out.println("Value of y:"+y);
+	    
+		
+
+	}
+
+}

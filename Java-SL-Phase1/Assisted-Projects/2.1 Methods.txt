@@ -1,0 +1,32 @@
+package Method;
+import java.util.Scanner;
+public class Methods {
+	public static void even()
+	{
+		System.out.println("Even numbers");
+	}
+	public void odd()
+	{
+		System.out.println("Odd numbers");
+	}
+	public static void main(String[]args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a value");
+		int a=sc.nextInt();
+		if(a%2==0)
+		{
+			even();
+		}
+		else if(a%2==1)
+		{
+			Methods m1=new Methods();
+			m1.odd();
+		}
+		else
+		{
+			System.out.println("No method call");
+			
+		}
+				}
+}
