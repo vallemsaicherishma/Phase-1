@@ -1,0 +1,22 @@
+project xmlns=httpmaven.apache.orgPOM4.0.0 xmlnsxsi=httpwww.w3.org2001XMLSchema-instance xsischemaLocation=httpmaven.apache.orgPOM4.0.0 httpsmaven.apache.orgxsdmaven-4.0.0.xsd
+  modelVersion4.0.0modelVersion
+  groupIdUsingJUnit_Dependency_InjustiongroupId
+  artifactIdUsingJUnit_Dependency_InjustionartifactId
+  version0.0.1-SNAPSHOTversion
+    
+  dependencies
+        dependency
+            groupIdorg.junit.jupitergroupId
+            artifactIdjunit-jupiter-engineartifactId
+            version5.4.2version
+        dependency
+        
+         dependency
+        groupIdorg.junit.platformgroupId
+        artifactIdjunit-platform-launcherartifactId
+        version1.2.0version
+    dependency
+    
+  dependencies
+
+project
